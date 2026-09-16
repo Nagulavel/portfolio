@@ -4,14 +4,6 @@ import { useEffect, useRef } from 'react'
 const services = [
   {
     num: '01',
-    title: 'Video Editing',
-    emoji: '🎬',
-    desc: 'Professional video editing for YouTube, reels, promos, and more. Clean cuts, smooth transitions, color grading, and captions.',
-    tags: ['YouTube Videos', 'Reels', 'Promos', 'Color Grading'],
-    image: '/video-editing-bg.png',
-  },
-  {
-    num: '02',
     title: 'Web Development',
     emoji: '💻',
     desc: 'Building modern, responsive websites and web apps. From landing pages to full portfolio sites — clean code and great design.',
