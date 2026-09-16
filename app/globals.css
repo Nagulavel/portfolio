@@ -128,3 +128,15 @@ body {
 
 /* Selection */
 ::selection { background: var(--accent); color: #fff; }
+
+/* Disable custom cursor on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+
+  .cursor,
+  .cursor-follower {
+    display: none !important;
+  }
+}
