@@ -18,15 +18,6 @@ const services = [
     tags: ['Landing Pages', 'Portfolio Sites', 'Responsive Design'],
     image: '/web-dev-bg.png',
   },
-  {
-    num: '03',
-    title: 'Coming Soon',
-    emoji: '🚀',
-    desc: 'More services on the way as I level up my skills. Stay tuned for UI/UX design, app development, and more.',
-    tags: ['UI/UX', 'App Dev', 'More...'],
-    image: null,
-    dim: true,
-  },
 ]
 
 export default function Services() {
