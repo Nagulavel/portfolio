@@ -2,17 +2,26 @@
 import { useEffect, useRef, useState } from 'react'
 
 const skills = [
-  { name: 'Python', level: 70, category: 'Programming' },
-  { name: 'C', level: 75, category: 'Programming' },
-  { name: 'C++', level: 72, category: 'Programming' },
-  { name: 'Java', level: 60, category: 'Programming' },
-  { name: 'Video Editing', level: 80, category: 'Creative' },
-  { name: 'HTML / CSS', level: 55, category: 'Web' },
-  { name: 'Problem Solving', level: 78, category: 'Soft Skill' },
-  { name: 'Git & GitHub', level: 60, category: 'Tools' },
+  // Languages
+  { name: 'Java', level: 60, category: 'Languages' },
+  { name: 'Python', level: 70, category: 'Languages' },
+  { name: 'C', level: 75, category: 'Languages' },
+  { name: 'C++', level: 72, category: 'Languages' },
+  { name: 'JavaScript', level: 50, category: 'Languages' },
+
+  // Web Development
+  { name: 'HTML', level: 70, category: 'Web Development' },
+  { name: 'CSS', level: 65, category: 'Web Development' },
+  { name: 'React.js', level: 45, category: 'Web Development' },
+  { name: 'Next.js', level: 50, category: 'Web Development' },
+
+  // Tools & Deployment
+  { name: 'Git', level: 60, category: 'Tools & Deployment' },
+  { name: 'GitHub', level: 60, category: 'Tools & Deployment' },
+  { name: 'Vercel', level: 60, category: 'Tools & Deployment' },
 ]
 
-const categories = ['All', 'Programming', 'Creative', 'Web', 'Tools', 'Soft Skill']
+const categories = ['All', 'Languages', 'Web Development', 'Tools & Deployment']
 
 export default function Skills() {
   const [active, setActive] = useState('All')
