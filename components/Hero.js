@@ -6,7 +6,7 @@ export default function Hero() {
   const [typed, setTyped] = useState('')
   const [phase, setPhase] = useState(0) // 0=typing, 1=pause, 2=deleting
 
-  const phrases = ['Video Editor.', 'Web Developer.', 'CSE Student.', 'Creative Freelancer.']
+  const phrases = ['Web Developer.', 'CSE Student.', 'Creative Freelancer.']
   const phraseIdx = useRef(0)
   const charIdx = useRef(0)
 
